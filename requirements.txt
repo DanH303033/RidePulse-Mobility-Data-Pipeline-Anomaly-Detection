@@ -1,0 +1,11 @@
+pandas
+numpy
+pyarrow
+duckdb
+requests
+matplotlib
+jupyter
+ipykernel
+pytest
+streamlit
+python-dotenv
