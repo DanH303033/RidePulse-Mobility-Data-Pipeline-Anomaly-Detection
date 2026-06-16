@@ -216,3 +216,47 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project data files
+data/bronze/*
+data/silver/*
+data/gold/*
+
+# Keep empty data folders in GitHub
+!data/bronze/.gitkeep
+!data/silver/.gitkeep
+!data/gold/.gitkeep
+
+# Large data formats
+*.csv
+*.parquet
+*.json
+*.jsonl
+*.xlsx
+
+# Local databases
+*.duckdb
+*.db
+*.sqlite
+*.sqlite3
+
+# Model / pipeline outputs
+outputs/
+artifacts/
+models/
+
+# Local reports generated automatically
+reports/generated/
+dashboard/.streamlit/
+
+# Environment variables and local configuration
+.env
+.env.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
